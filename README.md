@@ -1,6 +1,6 @@
 # Bili-Kits
 
-![logo](.\docs\img\logo.png)
+![logo](https://github.com/LonelySteve/Bili-Kits/blob/master/docs/img/logo.png?raw=true)
 
 > Bili-Kits —— 一款基于Python3与[B站](https://www.bilibili.com)API来编写的开发套件
 
@@ -10,11 +10,19 @@
 
 ## 安装
 
+_待填坑。。。_
+
 ### 环境
+
+_待填坑。。。_
 
 ## 模块介绍
 
+_待填坑。。。_
+
 ## 如何开始
+
+_待填坑。。。_
 
 ## 法律问题
 
