@@ -1,0 +1,10 @@
+from . import _BASE_API_VC_BILIBILI_COM
+
+_BASE_MESSAGE_BILIBILI_COM="http://message.bilibili.com"
+_BASE_MESSAGE_BILIBILI_COM_API="%s/api" % _BASE_MESSAGE_BILIBILI_COM
+_BASE_WEB_IM_V1_WEB_IM="%s/web_im/v1/web_im" % _BASE_API_VC_BILIBILI_COM
+
+NOTIFY_QUERY_NOTIFY_COUNT_DO="%s/notify/query.notify.count.do" % _BASE_MESSAGE_BILIBILI_COM_API
+SEND_MSG="%s/send_msg" % _BASE_WEB_IM_V1_WEB_IM
+FETCH_MSG="%s/fetch_msg" % _BASE_WEB_IM_V1_WEB_IM
+UNREAD_MSGS= "%s/unread_msgs" % _BASE_WEB_IM_V1_WEB_IM

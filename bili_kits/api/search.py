@@ -1,0 +1,5 @@
+_BASE_SEARCH_BILIBILI_COM="https://search.bilibili.com"
+_BASE_SEARCH_BILIBILI_COM_API="%s/api" % _BASE_SEARCH_BILIBILI_COM
+
+# B站搜索接口
+SEARCH="%s/search" % _BASE_SEARCH_BILIBILI_COM_API

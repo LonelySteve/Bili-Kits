@@ -1,0 +1,4 @@
+from . import _BASE_API_BILIBILI_COM_X_V2
+
+HISTORY="%s/history" % _BASE_API_BILIBILI_COM_X_V2
+DEL="%s/del" % HISTORY

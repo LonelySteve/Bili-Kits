@@ -1,0 +1,12 @@
+from . import _BASE_API_VC_BILIBILI_COM
+
+_BASE_DYNAMIC_SVR_V1_DYNAMIC_SVR="%s/dynamic_svr/v1/dynamic_svr" % _BASE_API_VC_BILIBILI_COM
+_BASE_DYNAMIC_REPOST_DYNAMIC_REPOST="%s/dynamic_repost/v1/dynamic_repost" % _BASE_API_VC_BILIBILI_COM
+
+DYNAMIC_REPOST_REPOST="%s/repost" % _BASE_DYNAMIC_REPOST_DYNAMIC_REPOST
+RM_RP_DYN ="%s/rm_rp_dyn" % _BASE_DYNAMIC_REPOST_DYNAMIC_REPOST
+# 获取某个动态的详情，GET请求，只有一个 dynamic_id 参数 无需带Cookies
+GET_DYNAMIC_DETAIL="%s/get_dynamic_detail" % _BASE_DYNAMIC_SVR_V1_DYNAMIC_SVR
+
+DYNAMIC_NEW = "%s/dynamic_new" % _BASE_DYNAMIC_SVR_V1_DYNAMIC_SVR
+DYNAMIC_HISTORY="%s/dynamic_history" % _BASE_DYNAMIC_SVR_V1_DYNAMIC_SVR
