@@ -16,7 +16,6 @@ class TestUser(unittest.TestCase):
         with self.assertRaises(UserNotLoginError):
             bu.nav_info
        
-
 if __name__ == '__main__':
     unittest.main()
  
